@@ -6,10 +6,10 @@ Se irá documentando la evolución del mismo, ya que comenzaré su desarrollo co
 
 ## Caracteristicas - versiones
 
-### 0.0.1
+### 0.0.1 (05/03/23)
 
--   Creación del mockup, del archivo gitignore y del README (05-03-23).
+-   Creación del mockup, del archivo gitignore y del README.
 
-### 0.1.0
+### 0.1.0 (06/03/23)
 
--   Se creo la base del index, con el inicio y el "Sobre mí", con sus respectivos estilos css (06-03-23).
+-   Se creo la base del index, con el inicio y el "Sobre mí", con sus respectivos estilos css.
