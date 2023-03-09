@@ -101,6 +101,11 @@ nav {
     border-radius: 8px;
 }
 
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
 .navbar-right a:hover {
     border: 1px solid var(--red);
 }
@@ -115,7 +120,7 @@ nav {
 .avatar {
     width: 350px;
     padding: 70px 0 50px 0;
-    border-radius: 70%;
+    border-radius: 50%;
 }
 
 .nombre {
@@ -169,4 +174,44 @@ nav {
     margin: 50px 0 50px 30px;
     border-radius: 70%;
     box-sizing: content-box;
+}
+
+/* --------------------------projects cards---------------------- */
+.section-project {
+    padding: 7% 15%;
+    box-sizing: content-box;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    gap: 26px;
+    place-content: center;
+}
+
+.project-card {
+    width: 240px;
+    background-color: rgba(62, 64, 61, 0.1);
+    border-radius: 10px;
+}
+
+.project-card img {
+    width: 240px;
+    height: 240px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    /*Evitar que la imagen se distorcione el tamaño*/
+}
+
+.project-info h2, p, a {
+    padding: 10px;
+    box-sizing: content-box;
+    text-align: center;
+}
+
+.project-info {}
+
+.project-info {
+    font-size: var(--sm);
+
 }

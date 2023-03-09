@@ -13,3 +13,7 @@ Se irá documentando la evolución del mismo, ya que comenzaré su desarrollo co
 ### 0.1.0 (06/03/23)
 
 -   Se creo la base del index, con el inicio y el "Sobre mí", con sus respectivos estilos css.
+
+### 0.2.0 (09/03/23)
+
+-   Se hizo la parte donde están los proyectos con sus respectivos estilos css.
