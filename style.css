@@ -77,6 +77,13 @@ body {
 }
 
 /* ----------------------navbar---------------------------------*/
+header {
+    background-color: var(--black);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
 nav {
     display: flex;
     justify-content: end;
@@ -214,4 +221,41 @@ a {
 .project-info {
     font-size: var(--sm);
 
+}
+
+/* -------------------skills------------------------- */
+.section-skills {
+    background-color: rgba(62, 64, 61, 0.1);
+    padding: 7% 15%;
+    box-sizing: content-box;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 140px);
+    /* gap: 26px; */
+    place-content: center;
+}
+
+.skills-card {
+    width: 100px;
+    background-color: var(--black);
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+
+.skills-card img {
+    /* width: 134px; */
+    filter: grayscale(100);
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    /*Evitar que la imagen se distorcione el tamaño*/
+}
+
+.skills-card img:hover {
+    filter: grayscale(0);
+    transition-property: filter;
+    transition-duration: 1s;
 }

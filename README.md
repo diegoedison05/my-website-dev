@@ -17,3 +17,7 @@ Se irá documentando la evolución del mismo, ya que comenzaré su desarrollo co
 ### 0.2.0 (09/03/23)
 
 -   Se hizo la parte donde están los proyectos con sus respectivos estilos css.
+
+### 0.3.0 (10/03/23)
+
+-   Se creó la sección de habilidades, contacto y footer, agregando algunos estilos, aunque en su mayoria no estan listos.
