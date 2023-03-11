@@ -25,3 +25,7 @@ Se irá documentando la evolución del mismo, ya que comenzaré su desarrollo co
 ### 0.3.1 (10/03/23)
 
 -   Se creo la carpeta css. Se agregaron los estilos a la parte de contacto y el footer.
+
+### 0.3.2 (11/03/23)
+
+-   Se agrego el texto 'Sobre mí', se agrego los contenidos de los proyectos, como tambien las imagenes y archivos necesarios.
