@@ -29,3 +29,8 @@ Se irá documentando la evolución del mismo, ya que comenzaré su desarrollo co
 ### 0.3.2 (11/03/23)
 
 -   Se agrego el texto 'Sobre mí', se agrego los contenidos de los proyectos, como tambien las imagenes y archivos necesarios.
+
+### 1.0.0 (11/03/23)
+
+-   Se agregaron los estilos al apartado de 'Contacto' y se corrigio la ubicación de los enlaces del menú.
+-   Se termina la página y está lista para ser subida a internet.

@@ -139,7 +139,7 @@ a {
 /* ---------------------------about me------------------------ */
 .about-me {
     background-color: rgba(62, 64, 61, 0.1);
-    padding: 25px;
+    padding: 60px;
     box-sizing: content-box;
     display: flex;
     justify-content: center;
@@ -169,16 +169,23 @@ a {
 }
 
 .downcv {
+    width: 130px;
+    height: 30px;
     background-color: var(--red);
     border-radius: 8px;
     border: none;
     color: var(--white);
-    width: 130px;
+    padding-top: 10px;
     cursor: pointer;
     font-size: var(--);
     font-weight: normal;
-    height: 40px;
+    text-align: center;
 }
+
+/* .downcv a {
+    text-decoration: none;
+    color: var(--white);
+} */
 
 .about-img {
     width: 250px;
@@ -214,18 +221,13 @@ a {
     /* border-radius: 10px 10px 0 0; */
     /* object-fit: cover; */
     /*Evitar que la imagen se distorcione el tamaño*/
-    filter: grayscale(100);
+    /* filter: grayscale(100); */
 }
 
 .project-card img:hover {
     filter: grayscale(0);
     transition-property: filter;
     transition-duration: 1s;
-
-    /* object-fit: scale-down;
-    transition-property: object-fit;
-    transition-duration: 3s; */
-    /* transform-origin: 100px; */
 }
 
 .project-info h2 {
@@ -241,10 +243,6 @@ a {
     font-size: var(--sm);
     font-weight: 300;
 }
-
-/* .project-info {
-    position: relative;
-} */
 
 .link-container {
     text-align: center;
@@ -283,7 +281,7 @@ a {
 
 .skills-card img {
     /* width: 134px; */
-    filter: grayscale(100);
+    /* filter: grayscale(100); */
     height: auto;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
@@ -304,13 +302,15 @@ a {
 }
 
 .contact-info {
-    /* display: grid;
+    display: grid;
     grid-template-columns: repeat(auto-fill, 260px);
-    place-content: center; */
+    gap: 26px;
+    place-content: center;
+}
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.section-contact img {
+    width: 32px;
+    margin-bottom: 5px;
 }
 
 .contact-card {
@@ -318,13 +318,8 @@ a {
     background-color: var(--black);
     border-radius: 10px;
     margin-bottom: 15px;
-    box-sizing: content-box;
-    justify-items: center;
-
-}
-
-.section-contact img {
-    width: 32px;
+    text-align: center;
+    font-weight: 300;
 }
 
 /* -----------------------footer------------------ */
