@@ -21,3 +21,7 @@ Se irá documentando la evolución del mismo, ya que comenzaré su desarrollo co
 ### 0.3.0 (10/03/23)
 
 -   Se creó la sección de habilidades, contacto y footer, agregando algunos estilos, aunque en su mayoria no estan listos.
+
+### 0.3.1 (10/03/23)
+
+-   Se creo la carpeta css. Se agregaron los estilos a la parte de contacto y el footer.
