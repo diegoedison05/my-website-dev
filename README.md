@@ -34,3 +34,7 @@ Se irá documentando la evolución del mismo, ya que comenzaré su desarrollo co
 
 -   Se agregaron los estilos al apartado de 'Contacto' y se corrigio la ubicación de los enlaces del menú.
 -   Se termina la página y está lista para ser subida a internet.
+
+### 1.0.1
+
+-   Corregidos los enlaces de 'Contacto' para que abran en una pestaña nueva.
