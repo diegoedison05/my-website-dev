@@ -38,3 +38,7 @@ Se irá documentando la evolución del mismo, ya que comenzaré su desarrollo co
 ### 1.0.1
 
 -   Corregidos los enlaces de 'Contacto' para que abran en una pestaña nueva.
+
+### 1.0.2
+
+- Se corrigió el enlace hacia el perfil de linkedin
